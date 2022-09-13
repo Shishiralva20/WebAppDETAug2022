@@ -1,0 +1,11 @@
+﻿@model List<Friend>
+<div>
+    @foreach (Friend f in @Model)
+    {
+        <p>@f.FriendId</p>
+        <p>@f.FriendName</p>
+        <p>@f.Place</p>
+    }
+
+
+</div>
